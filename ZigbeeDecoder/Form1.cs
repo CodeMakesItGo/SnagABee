@@ -72,7 +72,13 @@ namespace ZigbeeDecoder
             var dr = _messageDataTable.NewRow();
             dr["Count"] = "0";
             dr["Time"] = "120";
-            dr["Message"] = "1b 41 88 04 a6 2c 9a 52 e2 8e 00 e3 8f 30 9c 31 16 79 A0 F8 BA 18 06 00 00 f7 1e eb";
+            dr["Message"] = "22 41 88 84 94 e1 fa 9e 4e 8b 01 02 74 00 3b ff 04 66 00 c4 ff 45 00 32 f3 ff 61 f5 10 05 00 4d e5 ff f3";
+            _messageDataTable.Rows.Add(dr);
+
+            dr = _messageDataTable.NewRow();
+            dr["Count"] = "0";
+            dr["Time"] = "120";
+            dr["Message"] = "34 41 88 c4 94 e1 4e 8b fa 9e 34 31 80 08 00 80 08 00 d5 48 00 3a ab b5 88 85 de 14 e6 dd 46 17 eb 90 2b d2 00 00 44 42 bf 00 01 00 ed ff 04 00 00 00 00";
             _messageDataTable.Rows.Add(dr);
         }
 
